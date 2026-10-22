@@ -1,0 +1,38 @@
+{
+  "fold_seed": 31026,
+  "folds": 5,
+  "epochs": 120,
+  "width": 64,
+  "rank": 8,
+  "fe_ridge": 0.003,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.0001,
+  "gradient_clip": 5.0,
+  "evaluation_batch": 32,
+  "output_scale": [
+    1.0,
+    0.05
+  ],
+  "low_weight": 1.0,
+  "minimum_weight": 0.1,
+  "shortfall_weight": 0.1,
+  "smooth_abs": 0.01,
+  "seeds": [
+    31626,
+    31627,
+    31628
+  ],
+  "kernel_length": 0.15,
+  "window_cap": 0.25,
+  "methods": [
+    "prefix_joint",
+    "balanced_prefix"
+  ],
+  "state_scale": [
+    6.357254981994629,
+    2.8186426162719727,
+    3.0385806560516357,
+    1.4197660684585571,
+    0.21946103870868683
+  ]
+}

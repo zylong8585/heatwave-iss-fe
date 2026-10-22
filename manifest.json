@@ -1,0 +1,15 @@
+{
+  "checkpoints/balanced_prefix_s31626.pt": "edcb702a479eb74bf95ddd92cdfaa69779e9afefa7783def366dcb59e4b75e83",
+  "checkpoints/balanced_prefix_s31627.pt": "d0ae2a4e1b20a72a39e4f2df3c13fa8e75bb357d263a7a2b1a69ec86da87b660",
+  "checkpoints/balanced_prefix_s31628.pt": "c48219a55685aa400287375630231a62f2c58bba36d327eb45e0114f72895cc7",
+  "checkpoints/initial.pt": "5841b75e40046219776925b11f0c5194f56eacfb9730efab927fcf3707ee4b3f",
+  "checkpoints/prefix_joint_s31626.pt": "21fb5f2de90da1feee8ae1f59ff9b38be85aabcd7827ddee70e3e9a23c2b9da2",
+  "checkpoints/prefix_joint_s31627.pt": "164e99d528d03da9d283eb2ff9a1f509c41edb13fd1e5570e406fdf602b31ea0",
+  "checkpoints/prefix_joint_s31628.pt": "18f9f71864819d02c1a5181978dea5fae2c672b329a3bfafa80f6197ec631b94",
+  "config.json": "d4b09ffdbf1172dd0e7ef7597dac5a2fb450ca86abc0aabbb50ee194ab4bb43a",
+  "data/days.csv": "701a802c755f6bf8fc6a21f4ff0fac9d8a11015f4cf16163a5a11dd7e3b81872",
+  "data/dev.npz": "18d372f54f00b094e0cae5a3f2ac54243b749c982e8e2292b3887c6d7c56e559",
+  "data/train.npz": "eb09dd956b33a4cb38ce6c041f3919c6b9cd57fe3816adb66d81f26c7d6e2692",
+  "data/training_year_folds.npy": "ae7f3bddd014e2253584b9bd38892718165ea7de66e92d5dbb3aa5f980a5d10b",
+  "reference_metrics.json": "d5357253e4ca652b89588cf460e9a5fbfbf1d1b85edd1faffe48a4bf1686499f"
+}

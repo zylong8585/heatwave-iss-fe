@@ -1,0 +1,170 @@
+[
+  {
+    "method": "base",
+    "seed": null,
+    "year": 2022,
+    "group": "heatwave",
+    "soc_mae_pp": 1.1157380106548467,
+    "temperature_mae_C": 0.17949735323588054
+  },
+  {
+    "method": "base",
+    "seed": null,
+    "year": 2022,
+    "group": "normal",
+    "soc_mae_pp": 1.0406760406898863,
+    "temperature_mae_C": 0.12116126072259596
+  },
+  {
+    "method": "base",
+    "seed": null,
+    "year": 2023,
+    "group": "heatwave",
+    "soc_mae_pp": 1.5619923573052674,
+    "temperature_mae_C": 0.1791327668909441
+  },
+  {
+    "method": "prefix_joint",
+    "seed": 31626,
+    "year": 2022,
+    "group": "heatwave",
+    "soc_mae_pp": 0.7418571040034294,
+    "temperature_mae_C": 0.09553248087565104
+  },
+  {
+    "method": "prefix_joint",
+    "seed": 31626,
+    "year": 2022,
+    "group": "normal",
+    "soc_mae_pp": 0.3644351652007044,
+    "temperature_mae_C": 0.05515454139238522
+  },
+  {
+    "method": "prefix_joint",
+    "seed": 31626,
+    "year": 2023,
+    "group": "heatwave",
+    "soc_mae_pp": 1.1250033435460767,
+    "temperature_mae_C": 0.1383561000489352
+  },
+  {
+    "method": "prefix_joint",
+    "seed": 31627,
+    "year": 2022,
+    "group": "heatwave",
+    "soc_mae_pp": 0.7539137763281664,
+    "temperature_mae_C": 0.09727851549784343
+  },
+  {
+    "method": "prefix_joint",
+    "seed": 31627,
+    "year": 2022,
+    "group": "normal",
+    "soc_mae_pp": 0.36213764644883295,
+    "temperature_mae_C": 0.05475370677900903
+  },
+  {
+    "method": "prefix_joint",
+    "seed": 31627,
+    "year": 2023,
+    "group": "heatwave",
+    "soc_mae_pp": 1.1409668292719544,
+    "temperature_mae_C": 0.1386003201467949
+  },
+  {
+    "method": "prefix_joint",
+    "seed": 31628,
+    "year": 2022,
+    "group": "heatwave",
+    "soc_mae_pp": 0.7344764222701391,
+    "temperature_mae_C": 0.09786019325256348
+  },
+  {
+    "method": "prefix_joint",
+    "seed": 31628,
+    "year": 2022,
+    "group": "normal",
+    "soc_mae_pp": 0.3697924936811129,
+    "temperature_mae_C": 0.05504659075795868
+  },
+  {
+    "method": "prefix_joint",
+    "seed": 31628,
+    "year": 2023,
+    "group": "heatwave",
+    "soc_mae_pp": 1.1334903636261038,
+    "temperature_mae_C": 0.13565837291249058
+  },
+  {
+    "method": "balanced_prefix",
+    "seed": 31626,
+    "year": 2022,
+    "group": "heatwave",
+    "soc_mae_pp": 0.7360958742598692,
+    "temperature_mae_C": 0.09576961199442545
+  },
+  {
+    "method": "balanced_prefix",
+    "seed": 31626,
+    "year": 2022,
+    "group": "normal",
+    "soc_mae_pp": 0.36863809750403886,
+    "temperature_mae_C": 0.05511696839038237
+  },
+  {
+    "method": "balanced_prefix",
+    "seed": 31626,
+    "year": 2023,
+    "group": "heatwave",
+    "soc_mae_pp": 1.0745834967677008,
+    "temperature_mae_C": 0.13383991676464416
+  },
+  {
+    "method": "balanced_prefix",
+    "seed": 31627,
+    "year": 2022,
+    "group": "heatwave",
+    "soc_mae_pp": 0.7481116677323977,
+    "temperature_mae_C": 0.09749143918355306
+  },
+  {
+    "method": "balanced_prefix",
+    "seed": 31627,
+    "year": 2022,
+    "group": "normal",
+    "soc_mae_pp": 0.3666501193318838,
+    "temperature_mae_C": 0.0548014611373713
+  },
+  {
+    "method": "balanced_prefix",
+    "seed": 31627,
+    "year": 2023,
+    "group": "heatwave",
+    "soc_mae_pp": 1.07203131018762,
+    "temperature_mae_C": 0.13254811052690474
+  },
+  {
+    "method": "balanced_prefix",
+    "seed": 31628,
+    "year": 2022,
+    "group": "heatwave",
+    "soc_mae_pp": 0.7432704480985801,
+    "temperature_mae_C": 0.09806068738301595
+  },
+  {
+    "method": "balanced_prefix",
+    "seed": 31628,
+    "year": 2022,
+    "group": "normal",
+    "soc_mae_pp": 0.37321626657137164,
+    "temperature_mae_C": 0.05516699508384422
+  },
+  {
+    "method": "balanced_prefix",
+    "seed": 31628,
+    "year": 2023,
+    "group": "heatwave",
+    "soc_mae_pp": 1.0829915603001914,
+    "temperature_mae_C": 0.1324821480533533
+  }
+]
