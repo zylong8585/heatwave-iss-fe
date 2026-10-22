@@ -17,7 +17,7 @@ $$
 Historical samples are weighted by the similarity of their operating conditions $\mathbf c_i(t)$ to those of the target day $\mathbf c(t)$:
 
 $$
-\bar w_i(t)=\frac{\beta_i\exp\left(-\|\mathbf c(t)-\mathbf c_i(t)\|_2^2/(2\ell_t^2)\right)}{\sum_{s=1}^{N}\beta_s\exp\left(-\|\mathbf c(t)-\mathbf c_s(t)\|_2^2/(2\ell_t^2)\right)}.
+\bar w_i(t)=\frac{\beta_i\exp\left(-\Vert\mathbf c(t)-\mathbf c_i(t)\Vert_2^2/(2\ell_t^2)\right)}{\sum_{s=1}^{N}\beta_s\exp\left(-\Vert\mathbf c(t)-\mathbf c_s(t)\Vert_2^2/(2\ell_t^2)\right)}.
 $$
 
 Daily samples are grouped into operating windows $\mathcal D_g$, and the total weight of each window is bounded so that no single window dominates:
@@ -27,7 +27,7 @@ $$
 \quad\text{s.t.}\quad \sum_{i=1}^{N}w_i=1,\quad \sum_{i\in\mathcal D_g}w_i\le w_{\max}\ \ \forall g.
 $$
 
-The coefficients follow from a weighted ridge regression, with $\boldsymbol\Omega=\operatorname{diag}(\mathbf w^\star)$:
+The coefficients follow from a weighted ridge regression, with $\boldsymbol\Omega=\mathrm{diag}(\mathbf w^\star)$:
 
 $$
 \left(\boldsymbol\Phi^{\mathsf T}\boldsymbol\Omega\boldsymbol\Phi+\lambda_B\mathbf I\right)\mathbf B=\boldsymbol\Phi^{\mathsf T}\boldsymbol\Omega\mathbf E,
@@ -78,7 +78,7 @@ On the 2023 heatwave days, the proposed model reduces SoC MAE by 31.1% and zone-
 
 ![Window weights](figures/window_weights.png)
 
-*Largest weight that any single historical window receives, over all heatwave query hours. The bound $w_{\max}=0.25$ prevents single windows from dominating the correction.*
+*Largest weight that any single historical window receives, over all heatwave query hours. The bound $`w_{\max}=0.25`$ prevents single windows from dominating the correction.*
 
 ## Files
 
